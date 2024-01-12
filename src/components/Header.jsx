@@ -1,6 +1,6 @@
 export default function Header({ name, surname, title = "Espacio naturales y playas de Euskadi" }) {
   return (
-    <header>
+    <header className="flex flex-col gap-4 p-4">
         <div>
           <h1 className="text-4xl">{title}</h1>
         </div>
